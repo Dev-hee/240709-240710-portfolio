@@ -90,10 +90,17 @@ nav a{
 /*3-1. 앱 디자인*/
 .project .app{
     display: flex;
+    background-color: #555;
 }
 .project .app .thum{}
 .project .app .thum img{width: 100%;}
 .project .app .app_info{}
+.project .app .app_info .link{width: 100%;}
+.project .app .app_info .link a{
+    padding:6px; margin:20px 20px;
+    background-color: #b2bbff;}
+
+
 /*3-1. 웹 디자인*/
 .project .web {position: relative;}
 .project .web .swiper {max-width: 1000px;}
