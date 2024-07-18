@@ -3,11 +3,12 @@ body, html{scroll-behavior:smooth;}
 .profile, .project > div {
     max-width: 1200px; margin: 0 auto;
     border: 1px solid aqua;
+    background-color: #101116;
 }
 
 h1 {
-    font-family: "DM Serif Display", serif;
-    font-size: 10rem; font-weight: 600;
+    font-family: "Qwigley", serif;
+    font-size: 16rem;
     letter-spacing: 4px;
     text-align: center; color: #fff;
     text-transform: capitalize; /*앞글자만 대문자*/
@@ -33,7 +34,7 @@ nav a{
 }
 
 .bg {
-    background:url(../images/bg.jpg) center 40%;
+    background:url(../images/bg.png) center 40%;
     background-size: cover;}
 
 /*1.intro*/
@@ -60,7 +61,7 @@ nav a{
 }
 .profile .photo img{width: 100%;}
 .profile .txt{
-    background: rgb(255,255,255,0.4);
+    background:#ffffff;
     padding: 20px; border-radius: 15px;
     width:calc(100% - 220px);
     height: max-content; /*내용에 맞게 bg*/
@@ -75,6 +76,7 @@ nav a{
 .profile .txt .list:nth-child(3){grid-area:c;}
 .profile .txt .list * {color: #222;} /* list의 모든자식*/
 .profile .txt .list h2{
+s
     font-weight: 600;
     font-size: 1.3rem;
     margin-bottom:20px;
@@ -90,7 +92,7 @@ nav a{
 /*3-1. 앱 디자인*/
 .project .app{
     display: flex;
-    background-color: #555;
+    background-color:#466FFF;
 }
 .project .app .thum{}
 .project .app .thum img{width: 100%;}
